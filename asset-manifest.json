@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mahani-website-react/static/css/main.c6f22371.css",
+    "main.js": "/mahani-website-react/static/js/main.06103b80.js",
+    "static/js/488.9559bee9.chunk.js": "/mahani-website-react/static/js/488.9559bee9.chunk.js",
+    "static/media/logo-advert-transparent2.png": "/mahani-website-react/static/media/logo-advert-transparent2.3fb1a83620d0fd8de7fb.png",
+    "static/media/img009.png": "/mahani-website-react/static/media/img009.fa2dea6becba682b1907.png",
+    "static/media/bms-dashbard.png": "/mahani-website-react/static/media/bms-dashbard.9e3d32738d7362a03237.png",
+    "static/media/bms-stocksales.png": "/mahani-website-react/static/media/bms-stocksales.816db64c8b25e43d99df.png",
+    "static/media/about.svg": "/mahani-website-react/static/media/about.c3eae7cac909a407d6bfce5155d98294.svg",
+    "static/media/bms-desktop-computer.png": "/mahani-website-react/static/media/bms-desktop-computer.4752d60b896c736b901d.png",
+    "static/media/mahani-logo-horiz.png": "/mahani-website-react/static/media/mahani-logo-horiz.c0de6afc61e0b30cee00.png",
+    "static/media/bms-new-invoice-smallestphone.png": "/mahani-website-react/static/media/bms-new-invoice-smallestphone.1ef78fcad8b01ae45e42.png",
+    "static/media/bms-on-ipadAir.png": "/mahani-website-react/static/media/bms-on-ipadAir.655b89b1ae874af1b755.png",
+    "static/media/logo-horiz-transparent.png": "/mahani-website-react/static/media/logo-horiz-transparent.bdea19b409404ca4d368.png",
+    "static/media/bms-payments-on-ipadAir.png": "/mahani-website-react/static/media/bms-payments-on-ipadAir.84e863902ad42f318700.png",
+    "static/media/contact.svg": "/mahani-website-react/static/media/contact.68a7b274058825dd0b4bfdda13ed394a.svg",
+    "index.html": "/mahani-website-react/index.html",
+    "main.c6f22371.css.map": "/mahani-website-react/static/css/main.c6f22371.css.map",
+    "main.06103b80.js.map": "/mahani-website-react/static/js/main.06103b80.js.map",
+    "488.9559bee9.chunk.js.map": "/mahani-website-react/static/js/488.9559bee9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6f22371.css",
+    "static/js/main.06103b80.js"
+  ]
+}
