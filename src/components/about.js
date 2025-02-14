@@ -4,7 +4,7 @@ import aboutUsIllustration from "../images/about.svg";
 
 const About = () => {
     return (
-        <section id="about" className="container py-16">
+        <section id="about" className="container py-16 px-[2%]">
             <div className="flex flex-col lg:flex-row items-center">
                 <div className="lg:w-1/2">
                     <img src={aboutUsIllustration} alt="About" className="w-full" />
