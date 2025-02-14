@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.13d11340.css",
-    "main.js": "/static/js/main.e7a768a8.js",
+    "main.css": "/static/css/main.4bdcd29a.css",
+    "main.js": "/static/js/main.63a37e47.js",
     "static/js/488.9559bee9.chunk.js": "/static/js/488.9559bee9.chunk.js",
     "static/media/logo-advert-transparent2.png": "/static/media/logo-advert-transparent2.3fb1a83620d0fd8de7fb.png",
     "static/media/bgimage01.webp": "/static/media/bgimage01.815034f1f79884c7a75a.webp",
@@ -10,12 +10,12 @@
     "static/media/logo-horiz-transparent.png": "/static/media/logo-horiz-transparent.bdea19b409404ca4d368.png",
     "static/media/contact.svg": "/static/media/contact.68a7b274058825dd0b4bfdda13ed394a.svg",
     "index.html": "/index.html",
-    "main.13d11340.css.map": "/static/css/main.13d11340.css.map",
-    "main.e7a768a8.js.map": "/static/js/main.e7a768a8.js.map",
+    "main.4bdcd29a.css.map": "/static/css/main.4bdcd29a.css.map",
+    "main.63a37e47.js.map": "/static/js/main.63a37e47.js.map",
     "488.9559bee9.chunk.js.map": "/static/js/488.9559bee9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13d11340.css",
-    "static/js/main.e7a768a8.js"
+    "static/css/main.4bdcd29a.css",
+    "static/js/main.63a37e47.js"
   ]
 }
