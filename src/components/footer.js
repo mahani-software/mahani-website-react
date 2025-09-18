@@ -35,10 +35,13 @@ const Footer = () => {
 
                         {/* Middle section - Quick Links */}
                         <div className="text-center lg:text-left lg:pl-20">
-                            <h2 className="text-xl font-semibold text-white mb-4">Quick Links</h2>
-                            <ul className="space-y-4">
-                                <li><a href="#home" className="text-blue-200 hover:text-white underline">Company</a></li>
-                                <li><a href="#about" className="text-blue-200 hover:text-white underline">About</a></li>
+                            <h2 className="text-xl font-semibold text-white mb-4">Company</h2>
+                            <ul>
+                                <li className="text-zinc-500 italic">Registration No.</li>
+                                <li className="text-lg font-bold text-blue-300">80034474212149</li>
+                                <li className="h-2 w-full"> </li>
+                                <li className="text-zinc-500 italic">EST: </li>
+                                <li className="text-blue-300">22nd May 2024</li>
                             </ul>
                         </div>
 
