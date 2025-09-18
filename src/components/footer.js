@@ -38,10 +38,10 @@ const Footer = () => {
                             <h2 className="text-xl font-semibold text-white mb-4">Incorporated</h2>
                             <ul>
                                 <li className="text-zinc-500 italic">Registration No.</li>
-                                <li className="text-blue-200">80034474212149</li>
+                                <li className="text-zinc-500">80034474212149</li>
                                 <li className="h-2 w-full"> </li>
                                 <li className="text-zinc-500 italic">EST: </li>
-                                <li className="text-blue-200">22nd May 2024</li>
+                                <li className="text-zinc-500">22nd May 2024</li>
                             </ul>
                         </div>
 
