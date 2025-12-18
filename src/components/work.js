@@ -1,23 +1,22 @@
 import React from 'react';
 // import flowswitchImage from '../images/flowswitch-screenshot.png';
 // import redsaasImage from '../images/redsaas-screenshot.png';
-import flowswitchLogo from '../images/flowswitch-logo.png';
 import redsaasLogo from '../images/redsaas-logo.png';
 
 const WorkSection = () => {
   const projects = [
     {
-      title: "FlowSwitch",
-      description: "A platform connecting merchants and agents for seamless business operations. Companies use FlowSwitch to verify and manage sales agents, especially in unbanked communities.",
-      link: "https://www.flowswitchapi.com",
-      image: flowswitchLogo,
-    },
-    {
-      title: "RedSaaS",
+      title: "Redsaas",
       description: "An all-in-one networked Software as a Service solution, providing scalable and integrated software tools for businesses worldwide.",
-      link: "https://www.redsaas.tech",
+      link: "https://africa.redsaas.tech",
       image: redsaasLogo,
     },
+    // {
+    //   title: "FlowSwitch",
+    //   description: "A platform connecting merchants and agents for seamless business operations. Companies use FlowSwitch to verify and manage sales agents, especially in unbanked communities.",
+    //   link: "https://www.flowswitchapi.com",
+    //   image: flowswitchLogo,
+    // },
   ];
 
   return (
