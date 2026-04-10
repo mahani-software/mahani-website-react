@@ -53,7 +53,7 @@ const Footer = () => {
                                 Opp. King of Kings Church, <br />
                                 Mbarara city - Uganda. <br />
                                 Tel: +256781224508 <br />
-                                Email: <a href="mailto:engineering@mahanitech.com" className="hover:text-white">engineering@mahanitech.com</a>
+                                Email: <a href="mailto:mahanitech@gmail.com" className="hover:text-white">mahanitech@gmail.com</a>
                             </p>
                         </div>
                     </div>
