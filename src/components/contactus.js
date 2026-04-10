@@ -71,7 +71,7 @@ const ContactForm = () => {
                         </h4>
                         <p className="text-zinc-500">
                             Send us a message by filling out the short form below, we will get back to you within 1 hour.
-                            Alternatively, you can call us or WhatsApp on Mobile: <b>+256 781 224508</b>. Email: <b>engineering@mahanitech.com</b>
+                            Alternatively, you can call us or WhatsApp on Mobile: <b>+256 781 224508</b>. Email: <b>mahanitech@gmail.com</b>
                         </p>
                     </div>
                     <form onSubmit={handleSubmit}>
