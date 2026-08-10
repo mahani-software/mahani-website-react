@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2056a403.css",
-    "main.js": "/static/js/main.b52e6917.js",
+    "main.css": "/static/css/main.88a6ea87.css",
+    "main.js": "/static/js/main.16080d72.js",
     "static/js/488.af36cb30.chunk.js": "/static/js/488.af36cb30.chunk.js",
     "static/media/logo-advert-transparent2.png": "/static/media/logo-advert-transparent2.3fb1a83620d0fd8de7fb.png",
     "static/media/bgimage01.webp": "/static/media/bgimage01.815034f1f79884c7a75a.webp",
@@ -11,12 +11,12 @@
     "static/media/redsaas-logo.png": "/static/media/redsaas-logo.daa7a85ce675ce61760d.png",
     "static/media/contact.svg": "/static/media/contact.68a7b274058825dd0b4bfdda13ed394a.svg",
     "index.html": "/index.html",
-    "main.2056a403.css.map": "/static/css/main.2056a403.css.map",
-    "main.b52e6917.js.map": "/static/js/main.b52e6917.js.map",
+    "main.88a6ea87.css.map": "/static/css/main.88a6ea87.css.map",
+    "main.16080d72.js.map": "/static/js/main.16080d72.js.map",
     "488.af36cb30.chunk.js.map": "/static/js/488.af36cb30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2056a403.css",
-    "static/js/main.b52e6917.js"
+    "static/css/main.88a6ea87.css",
+    "static/js/main.16080d72.js"
   ]
 }
