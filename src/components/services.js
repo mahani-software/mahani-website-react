@@ -1,58 +1,89 @@
 import React from 'react';
-import { CodeBracketIcon, CloudIcon, ServerIcon, DocumentTextIcon, ComputerDesktopIcon, DevicePhoneMobileIcon } from '@heroicons/react/24/outline';
+import {
+  CodeBracketIcon,
+  CloudIcon,
+  ServerIcon,
+  DocumentTextIcon,
+  ComputerDesktopIcon,
+  DevicePhoneMobileIcon
+} from '@heroicons/react/24/outline';
 
 const ServicesSection = () => {
   const servicesData = [
     {
-      icon: <CodeBracketIcon className="h-12 w-12 text-red-500" />,
+      icon: CodeBracketIcon,
       title: "Backend Systems Development",
-      description: "Custom APIs and seamless integration with REST or GraphQL APIs for robust backend solutions."
+      description: "Custom APIs and seamless integration with REST or GraphQL for robust, scalable backend solutions."
     },
     {
-      icon: <CloudIcon className="h-12 w-12 text-red-500" />,
+      icon: CloudIcon,
       title: "DevOps Engineering",
-      description: "CI/CD pipelines, cloud services (GCP, AWS, DigitalOcean), Kubernetes, Docker, Terraform, and more."
+      description: "CI/CD pipelines, cloud infrastructure (GCP, AWS, DigitalOcean), Kubernetes, Docker & Terraform."
     },
     {
-      icon: <ServerIcon className="h-12 w-12 text-red-500" />,
+      icon: ServerIcon,
       title: "Servers Monitoring & Maintenance",
-      description: "Comprehensive management of server-side complexities, protocols, and backend technologies."
+      description: "Proactive monitoring, performance optimization, and reliable management of server infrastructure."
     },
     {
-      icon: <DocumentTextIcon className="h-12 w-12 text-red-500" />,
+      icon: DocumentTextIcon,
       title: "Software Systems Architecting",
-      description: "Detailed, documented architectural plans to streamline your software development process."
+      description: "Clear, well-documented architecture that reduces risk and accelerates development."
     },
     {
-      icon: <ComputerDesktopIcon className="h-12 w-12 text-red-500" />,
+      icon: ComputerDesktopIcon,
       title: "Desktop Software Development",
-      description: "Cross-platform desktop apps using Electron-JS and GTK, with real-time WebSocket dashboards."
+      description: "Cross-platform desktop applications using Electron and modern technologies."
     },
     {
-      icon: <DevicePhoneMobileIcon className="h-12 w-12 text-red-500" />,
-      title: "React/Native Frontend Apps",
-      description: "Dynamic, lightweight web and mobile apps using React, React Native, and Redux."
+      icon: DevicePhoneMobileIcon,
+      title: "React & React Native Apps",
+      description: "Beautiful, high-performance web and mobile applications built with React and React Native."
     }
   ];
 
   return (
-    <section id="services" className="py-16 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h5 className="text-red-500 font-semibold text-lg">What We Do</h5>
-          <h4 className="text-3xl font-bold font-nunito text-zinc-700 mt-2">Our Services</h4>
+    <section id="services" className="pt-2 pb-6 bg-gray-50 bg-[linen]">
+      <div className="container mx-auto px-5 lg:px-8">
+
+        {/* Header */}
+        <div className="text-center max-w-full mx-auto mb-10">
+          <span className="inline-block text-red-500 font-semibold text-sm tracking-wider uppercase mb-3">
+            What We Do
+          </span>
+          <h2 className="text-3xl md:text-4xl font-bold text-zinc-800 font-nunito">
+            Our Services
+          </h2>
+          <p className="mt-4 text-zinc-500 text-lg">
+            End-to-end software engineering services designed to help businesses of every size move faster and scale confidently.
+          </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {servicesData.map((service, index) => (
-            <div
-              key={index}
-              className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
-            >
-              <div className="flex justify-center mb-4">{service.icon}</div>
-              <h3 className="text-xl font-bold text-zinc-700 text-center">{service.title}</h3>
-              <p className="text-zinc-500 text-center mt-2">{service.description}</p>
-            </div>
-          ))}
+
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {servicesData.map((service, index) => {
+            const Icon = service.icon;
+            return (
+              <div
+                key={index}
+                className="group bg-white rounded-2xl p-8 shadow-sm border border-[brown] 
+                           hover:shadow-xl hover:border-red-100 hover:-translate-y-1 
+                           transition-all duration-300"
+              >
+                <div className="w-16 h-16 rounded-2xl bg-red-50 flex items-center justify-center mb-6
+                                group-hover:bg-red-500 transition-colors duration-300">
+                  <Icon className="h-8 w-8 text-red-500 group-hover:text-white transition-colors duration-300" />
+                </div>
+
+                <h3 className="text-xl font-bold text-zinc-800 mb-3">
+                  {service.title}
+                </h3>
+                <p className="text-zinc-500 leading-relaxed">
+                  {service.description}
+                </p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -54,7 +54,7 @@ const ContactForm = () => {
     };
 
     return (
-        <section id="contact" className="w-full flex relative pt-18 pb-120 flex-col md:flex-row justify-between px-[5%]">
+        <section id="contact" className="w-full flex relative pt-4 pb-8 flex-col md:flex-row justify-between px-[5%] bg-blue-100">
             <div className="relative items-center justify-center w-full lg:w-[50%]">
                 <div className="w-[80%] lg:w-[98%] lg:pr-13">
                     <img src={contactUsImage} alt="contact" />
@@ -62,7 +62,7 @@ const ContactForm = () => {
             </div>
             <div className="relative flex-grow items-center justify-center w-full lg:w-[50%]">
                 <div className="items-center justify-center">
-                    <div className="pb-4">
+                    <div className="pb-4 px-4">
                         <h5 className="font-semibold text-base leading-6 text-red-500 mt-4 md:text-lg md:leading-7">
                             Contact
                         </h5>
@@ -86,7 +86,7 @@ const ContactForm = () => {
                                                 placeholder="Name"
                                                 value={formData.name}
                                                 onChange={handleInputChange}
-                                                className="w-full rounded-md py-3 px-6 border border-solid border-body-color"
+                                                className="w-full rounded-md py-3 px-6 border-2 border-solid border-blue-400"
                                             />
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@ const ContactForm = () => {
                                                 placeholder="Email"
                                                 value={formData.email}
                                                 onChange={handleInputChange}
-                                                className="w-full rounded-md py-3 px-6 border border-solid border-body-color"
+                                                className="w-full rounded-md py-3 px-6 border-2 border-solid border-blue-400"
                                             />
                                         </div>
                                     </div>
@@ -115,7 +115,7 @@ const ContactForm = () => {
                                             rows="6"
                                             value={formData.message}
                                             onChange={handleInputChange}
-                                            className="w-full rounded-md py-3 px-6 border border-solid border-body-color resize-none"
+                                            className="w-full rounded-md py-3 px-6 border-2 border-solid border-blue-400 resize-none"
                                         ></textarea>
                                     </div>
                                 </div>
