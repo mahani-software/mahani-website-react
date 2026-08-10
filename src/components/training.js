@@ -31,7 +31,7 @@ const TrainingSection = () => {
     ];
 
     return (
-        <section id="training" className="mt-4 pt-3 pb-8 bg-white bg-blue-100">
+        <section id="training" className="mt-2 pt-3 pb-8 bg-white bg-blue-100">
             <div className="container mx-auto px-5 lg:px-8">
 
                 {/* Header */}
