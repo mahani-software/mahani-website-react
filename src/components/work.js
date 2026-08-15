@@ -6,7 +6,7 @@ const WorkSection = () => {
     {
       title: "Redsaas",
       description: "An all-in-one networked Software-as-a-Service platform providing scalable and integrated software tools for businesses across Africa and beyond.",
-      link: "https://africa.redsaas.tech",
+      link: "https://africa.redsaas.org",
       image: redsaasLogo,
       tag: "SaaS Platform"
     }
