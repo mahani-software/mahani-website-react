@@ -6,6 +6,7 @@ import Footer from './components/footer';
 import ServicesSection from './components/services';
 import TrainingSection from './components/training';
 import WorkSection from './components/work';
+import { Supermarket } from "./components/supermarket";
 import ContactForm from './components/contactus';
 import "./index.css"
 
@@ -18,6 +19,8 @@ function App() {
       <ServicesSection />
       <TrainingSection />
       <WorkSection />
+      {/* supermarket */}
+      <Supermarket />
       <ContactForm />
       <Footer />
     </div>
