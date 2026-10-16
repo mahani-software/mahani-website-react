@@ -1,4 +1,4 @@
-import supermarketImage from "../assets/supermarket-system-ug.png";
+import supermarketImage from "../assets/supermarket-system-ug.jpg";
 
 const Supermarket = () => {
   return (
