@@ -50,7 +50,7 @@ const Footer = () => {
                             <h2 className="text-xl font-semibold text-white mb-4">Location</h2>
                             <p className="text-white text-sm lg:text-base text-zinc-500 italic">
                                 Ntare-Rwebikoona road, <br />
-                                Opp. King of Kings Church, <br />
+                                Opp. King of kings Church, <br />
                                 Mbarara city - Uganda. <br />
                                 Tel: +256781224508 <br />
                                 Email: <a href="mailto:mahanitech@gmail.com" className="hover:text-white">mahanitech@gmail.com</a>
